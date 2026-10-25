@@ -48,7 +48,7 @@ The original Binance `meme-rush` feed identified this deployment under Flap (`pr
 The deployed Solidity source is in `src/`. The public player Skill is in `skills/crux-pvp/`. The earlier `skill/agent-crucible/` entry and root operator scripts are project-maintainer tooling; do not reuse the project's operator identity or initial authorization as your own.
 
 ```sh
-npm ci --ignore-scripts
+npm ci
 forge test
 npm run test:tools
 ```
