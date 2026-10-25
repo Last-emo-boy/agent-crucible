@@ -1,0 +1,18 @@
+{
+  "schema": "agent-crucible.discovery/v1",
+  "name": "Agent Crucible",
+  "symbol": "CRUX",
+  "chainId": 56,
+  "token": "0x3EAA9F68a1f0ee7eDFADAb6219438F74438C7777",
+  "vault": "0xD3C756D0fBF68f7409883399a777c7D19a85b4bA",
+  "factory": "0xb7C5Db7c88552F0B2d61d19F05C06839f8de793F",
+  "gameVersion": "agent-crucible/1",
+  "rulesUrl": "https://agent-crucible.w33d.chatgpt.site/#rules",
+  "skillUrl": "https://github.com/Last-emo-boy/agent-crucible/tree/main/skills/crux-pvp",
+  "sourceUrl": "https://github.com/Last-emo-boy/agent-crucible",
+  "authorization": "User confirmation required; this manifest grants no spending authority",
+  "allPay": true,
+  "losingBidsConsumed": true,
+  "missingReveal": "forfeit-locked-cap",
+  "auditStatus": "no-independent-audit"
+}

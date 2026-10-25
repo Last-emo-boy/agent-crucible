@@ -1,0 +1,20 @@
+{
+  "name": "agent-crucible",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:tools": "node --test test-js/*.test.mjs",
+    "discover": "node scripts/discover.mjs",
+    "plan:launch": "node scripts/launch-plan.mjs"
+  },
+  "dependencies": {
+    "@github/keytar": "7.10.6",
+    "@openzeppelin/contracts": "5.6.1",
+    "@openzeppelin/contracts-upgradeable": "4.9.6",
+    "viem": "2.57.11"
+  },
+  "devDependencies": {
+    "@binance/agentic-wallet": "1.12.0"
+  }
+}

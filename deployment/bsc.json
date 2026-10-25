@@ -1,0 +1,74 @@
+{
+  "chainId": 56,
+  "name": "Agent Crucible",
+  "symbol": "CRUX",
+  "token": "0x3EAA9F68a1f0ee7eDFADAb6219438F74438C7777",
+  "vault": "0xD3C756D0fBF68f7409883399a777c7D19a85b4bA",
+  "factory": "0xb7C5Db7c88552F0B2d61d19F05C06839f8de793F",
+  "controller": "0x6a755fA47b21592b3fB039F63933d367C0DD1985",
+  "gameVersion": "agent-crucible/1",
+  "transactions": {
+    "factory": "0xabdf01f17111d093815968021fa6d9304d5b8625d57ca8cd574572e7c1b1757f",
+    "launch": "0xc2e6cf9f5c2cc6c771cf4292fb6264996ac41e464ba40d0e1610eb029865a247",
+    "seed": "0x6485c046c515a0ac552677f39474ed438d5ad42a18fb8d5add423a5e2e4a4796",
+    "operator-gas": "0xa989a98a3d25b2831c5a88b2f6970da25a4560da25c36020588dc4f9f4008c96",
+    "approve": "0x075c828a01e8768c657675d8c36414fe8de63554bcacdc28c9917d9274523303",
+    "authorize": "0x423ccb2d4973bb4127da2bc95340f688a6e9c3ba2c633c38bc915f512b6ce487",
+    "firstRound": "0x070ba692416b2ab68e4c4b0f1629cafa7ef15a2b84cfe62e781f385d13811002"
+  },
+  "sourceVerification": {
+    "vault": {
+      "status": "exact_match",
+      "url": "https://sourcify.dev/server/verify-ui/jobs/8ee474cf-5891-448f-99c3-6d8ae7cf9597"
+    },
+    "factory": {
+      "status": "exact_match",
+      "url": "https://sourcify.dev/server/verify-ui/jobs/44b6a932-d50d-4399-9253-bc77e3339e61"
+    }
+  },
+  "game": {
+    "commitSeconds": 1200,
+    "revealSeconds": 600,
+    "minPrizeWei": "1000000000000000",
+    "prizeBps": 8000,
+    "operationsBps": 1000,
+    "allPay": true,
+    "missingReveal": "forfeit-full-locked-maximum"
+  },
+  "discovery": {
+    "skill": "binance/binance-skills-hub:skills/binance-web3/meme-rush",
+    "observedAt": "2026-10-25T16:29:34.733Z",
+    "query": {
+      "chainId": "56",
+      "rankType": 10,
+      "protocol": [
+        2002
+      ],
+      "limit": 100
+    },
+    "contractAddress": "0x3eaa9f68a1f0ee7edfadab6219438f74438c7777",
+    "protocol": 2002,
+    "tokenVersion": "6",
+    "buyTaxPercent": "1",
+    "sellTaxPercent": "1",
+    "taxRateVaultPercent": "100",
+    "reportedTaxAddress": "0xb7c5db7c88552f0b2d61d19f05c06839f8de793f",
+    "reportedTaxAddressKind": "factory",
+    "vaultResolver": "VaultPortal.tryGetVault"
+  },
+  "flapEndorsement": {
+    "isOfficial": false,
+    "riskLevel": 0
+  },
+  "launchBudget": {
+    "maxBNB": "0.02",
+    "allocatedFromOwnerBNB": "0.017108318147032182",
+    "includesOperatorFundingBNB": "0.001"
+  },
+  "initialAgentPolicy": {
+    "operator": "0x3F2F0F15F45a9d21E40D51AbE484ae55ccAD0533",
+    "cumulativeRiskCRUX": "20000",
+    "perRoundCRUX": "2000",
+    "expiresAt": "2026-10-26T16:30:11Z"
+  }
+}

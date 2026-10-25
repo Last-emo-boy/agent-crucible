@@ -1,0 +1,16 @@
+{
+  "chainId": 56,
+  "token": "0x3EAA9F68a1f0ee7eDFADAb6219438F74438C7777",
+  "vault": "0xD3C756D0fBF68f7409883399a777c7D19a85b4bA",
+  "factory": "0xb7C5Db7c88552F0B2d61d19F05C06839f8de793F",
+  "agentId": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+  "rpc": "https://bsc-dataseed.binance.org",
+  "queries": {
+    "currentRound": "0x8a19c8bc",
+    "availablePrize": "0x7fd2b4ae",
+    "minPrize": "0x1c330451",
+    "paused": "0x5c975abb",
+    "totalTokensConsumed": "0x13e4e1a2",
+    "rounds": "0x8c65c81f"
+  }
+}

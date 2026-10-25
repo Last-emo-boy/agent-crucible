@@ -1,0 +1,10 @@
+{
+  "name": "crux-pvp-skill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": { "inspect": "node scripts/crux.mjs inspect" },
+  "dependencies": { "viem": "2.57.11" }
+}

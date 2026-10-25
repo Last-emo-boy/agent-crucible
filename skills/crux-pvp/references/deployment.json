@@ -1,0 +1,14 @@
+{
+  "chainId": 56,
+  "token": "0x3EAA9F68a1f0ee7eDFADAb6219438F74438C7777",
+  "vault": "0xD3C756D0fBF68f7409883399a777c7D19a85b4bA",
+  "factory": "0xb7C5Db7c88552F0B2d61d19F05C06839f8de793F",
+  "vaultPortal": "0x90497450f2a706f1951b5bdda52B4E5d16f34C06",
+  "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+  "gameVersion": "agent-crucible/1",
+  "site": "https://agent-crucible.w33d.chatgpt.site",
+  "source": "https://github.com/Last-emo-boy/agent-crucible",
+  "buyTaxBps": 100,
+  "sellTaxBps": 100,
+  "projectShareBps": 1000
+}
