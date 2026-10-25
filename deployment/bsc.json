@@ -70,5 +70,20 @@
     "cumulativeRiskCRUX": "20000",
     "perRoundCRUX": "2000",
     "expiresAt": "2026-10-26T16:30:11Z"
+  },
+  "links": {
+    "arena": "https://agent-crucible.w33d.chatgpt.site",
+    "source": "https://github.com/Last-emo-boy/agent-crucible",
+    "playerSkill": "https://github.com/Last-emo-boy/agent-crucible/tree/main/skills/crux-pvp",
+    "squarePost": "https://www.binance.com/zh-CN/square/post/381154568842909",
+    "upstreamDiscoveryPullRequest": "https://github.com/binance/binance-skills-hub/pull/382"
+  },
+  "onboarding": {
+    "public": true,
+    "anonymousSiteVerified": true,
+    "skillInstallVerified": true,
+    "existingTokenWebsite": "https://flap.sh/bnb/0x3EAA9F68a1f0ee7eDFADAb6219438F74438C7777/taxinfo",
+    "existingTokenWebsiteUpdated": false,
+    "upstreamDiscoveryStatus": "open-pull-request"
   }
 }
